@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> IMDb Movie Review Form</title>
+</head>
+<center>
+<body>
+
+    <h1> Movie Review Submission</h1>
+    <p>Please fill out the form below to submit your movie review.</p>
+    <hr>
+
+    <form>
+
+        <h3> Personal Information</h3>
+
+        <label>Full Name:</label>
+        <input type="text" placeholder="Enter your name" required><br><br>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email"><br><br>
+
+        <label>Age:</label>
+        <input type="number" min="10" max="100"><br><br>
+
+        <label>Country:</label>
+        <select>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Japan</option>
+            <option>France</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <hr>
+
+        <h3> Movie Information</h3>
+
+        <label>Movie Title:</label>
+        <input type="text" required><br><br>
+
+        <label>Release Year:</label>
+        <input type="number" min="1900" max="2025"><br><br>
+
+        <label>Genre:</label>
+        <select>
+            <option>Action</option>
+            <option>Comedy</option>
+            <option>Drama</option>
+            <option>Horror</option>
+            <option>Romance</option>
+            <option>Sci-Fi</option>
+            <option>Thriller</option>
+            <option>Other</option>
+        </select><br><br>
+
+        <label>Language:</label>
+        <input type="text" placeholder="Example: English, Hindi, Tamil"><br><br>
+
+        <hr>
+
+        <h3> Rating & Review</h3>
+
+        <label>Rating (1-10):</label>
+        <input type="number" min="1" max="10" required><br><br>
+
+        <label>Would you watch it again?</label>
+        <input type="radio" name="again"> Yes
+        <input type="radio" name="again"> No<br><br>
+
+        <label>Best Actor/Actress in the movie:</label>
+        <input type="text"><br><br>   
+
+        <label>Favourite Scene:</label>
+        <textarea rows="2" cols="30"></textarea><br><br>
+
+        <label>Write Your Full Review:</label>
+        <textarea rows="6" cols="50" placeholder="Share your thoughts..."></textarea><br><br>
+
+        <hr>
+
+        <input type="submit" value="Submit Review">
+
+    </form>
+
+</body>
+</html>
+</center>
